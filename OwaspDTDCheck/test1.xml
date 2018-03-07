@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE str [
+<!ENTITY pass SYSTEM "/etc/passwd">
+]>
+<str><data1>&pass;</data1><data2></data2></str>
